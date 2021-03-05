@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/api/definitions')
+fetch('https://json-express.herokuapp.com/api/definitions')
   .then(function(response){
     return response.json();
   })
